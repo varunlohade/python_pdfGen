@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Certificate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Get your Certificate</header>
+    <main>
+      <label for=">Type your Name<"></label>
+      <input
+        type="text"
+        name="Name"
+        id="name"
+        autocomplete="name"
+        required
+        placeholder="John doe"
+      />
+      <button id="submit">Get Certificate</button>
+    </main>
+
+    <!-- <iframe
+      src=""
+      id="mypdf"
+      height="800px"
+      width="800px"
+      frameborder="0"
+    ></iframe> -->
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
